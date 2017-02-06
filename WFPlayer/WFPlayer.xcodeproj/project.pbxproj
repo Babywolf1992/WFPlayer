@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E64472B1E4851F100819A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E64472A1E4851F100819A84 /* main.m */; };
+		9E64472E1E4851F100819A84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E64472D1E4851F100819A84 /* AppDelegate.m */; };
+		9E6447311E4851F100819A84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6447301E4851F100819A84 /* ViewController.m */; };
+		9E6447341E4851F100819A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6447321E4851F100819A84 /* Main.storyboard */; };
+		9E6447361E4851F100819A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6447351E4851F100819A84 /* Assets.xcassets */; };
+		9E6447391E4851F100819A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6447371E4851F100819A84 /* LaunchScreen.storyboard */; };
+		9E6447441E4851F100819A84 /* WFPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6447431E4851F100819A84 /* WFPlayerTests.m */; };
+		9E64474F1E4851F100819A84 /* WFPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E64474E1E4851F100819A84 /* WFPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E6447401E4851F100819A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E64471E1E4851F100819A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E6447251E4851F100819A84;
+			remoteInfo = WFPlayer;
+		};
+		9E64474B1E4851F100819A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E64471E1E4851F100819A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E6447251E4851F100819A84;
+			remoteInfo = WFPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E6447261E4851F100819A84 /* WFPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E64472A1E4851F100819A84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E64472C1E4851F100819A84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E64472D1E4851F100819A84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E64472F1E4851F100819A84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E6447301E4851F100819A84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E6447331E4851F100819A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E6447351E4851F100819A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E6447381E4851F100819A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E64473A1E4851F100819A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E64473F1E4851F100819A84 /* WFPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6447431E4851F100819A84 /* WFPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFPlayerTests.m; sourceTree = "<group>"; };
+		9E6447451E4851F100819A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E64474A1E4851F100819A84 /* WFPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E64474E1E4851F100819A84 /* WFPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFPlayerUITests.m; sourceTree = "<group>"; };
+		9E6447501E4851F100819A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E6447231E4851F100819A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E64473C1E4851F100819A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6447471E4851F100819A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E64471D1E4851F100819A84 = {
+			isa = PBXGroup;
+			children = (
+				9E6447281E4851F100819A84 /* WFPlayer */,
+				9E6447421E4851F100819A84 /* WFPlayerTests */,
+				9E64474D1E4851F100819A84 /* WFPlayerUITests */,
+				9E6447271E4851F100819A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E6447271E4851F100819A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E6447261E4851F100819A84 /* WFPlayer.app */,
+				9E64473F1E4851F100819A84 /* WFPlayerTests.xctest */,
+				9E64474A1E4851F100819A84 /* WFPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E6447281E4851F100819A84 /* WFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9E64472C1E4851F100819A84 /* AppDelegate.h */,
+				9E64472D1E4851F100819A84 /* AppDelegate.m */,
+				9E64472F1E4851F100819A84 /* ViewController.h */,
+				9E6447301E4851F100819A84 /* ViewController.m */,
+				9E6447321E4851F100819A84 /* Main.storyboard */,
+				9E6447351E4851F100819A84 /* Assets.xcassets */,
+				9E6447371E4851F100819A84 /* LaunchScreen.storyboard */,
+				9E64473A1E4851F100819A84 /* Info.plist */,
+				9E6447291E4851F100819A84 /* Supporting Files */,
+			);
+			path = WFPlayer;
+			sourceTree = "<group>";
+		};
+		9E6447291E4851F100819A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E64472A1E4851F100819A84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E6447421E4851F100819A84 /* WFPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E6447431E4851F100819A84 /* WFPlayerTests.m */,
+				9E6447451E4851F100819A84 /* Info.plist */,
+			);
+			path = WFPlayerTests;
+			sourceTree = "<group>";
+		};
+		9E64474D1E4851F100819A84 /* WFPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E64474E1E4851F100819A84 /* WFPlayerUITests.m */,
+				9E6447501E4851F100819A84 /* Info.plist */,
+			);
+			path = WFPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E6447251E4851F100819A84 /* WFPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6447531E4851F100819A84 /* Build configuration list for PBXNativeTarget "WFPlayer" */;
+			buildPhases = (
+				9E6447221E4851F100819A84 /* Sources */,
+				9E6447231E4851F100819A84 /* Frameworks */,
+				9E6447241E4851F100819A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFPlayer;
+			productName = WFPlayer;
+			productReference = 9E6447261E4851F100819A84 /* WFPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E64473E1E4851F100819A84 /* WFPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6447561E4851F100819A84 /* Build configuration list for PBXNativeTarget "WFPlayerTests" */;
+			buildPhases = (
+				9E64473B1E4851F100819A84 /* Sources */,
+				9E64473C1E4851F100819A84 /* Frameworks */,
+				9E64473D1E4851F100819A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E6447411E4851F100819A84 /* PBXTargetDependency */,
+			);
+			name = WFPlayerTests;
+			productName = WFPlayerTests;
+			productReference = 9E64473F1E4851F100819A84 /* WFPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E6447491E4851F100819A84 /* WFPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6447591E4851F100819A84 /* Build configuration list for PBXNativeTarget "WFPlayerUITests" */;
+			buildPhases = (
+				9E6447461E4851F100819A84 /* Sources */,
+				9E6447471E4851F100819A84 /* Frameworks */,
+				9E6447481E4851F100819A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E64474C1E4851F100819A84 /* PBXTargetDependency */,
+			);
+			name = WFPlayerUITests;
+			productName = WFPlayerUITests;
+			productReference = 9E64474A1E4851F100819A84 /* WFPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E64471E1E4851F100819A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = babywolf;
+				TargetAttributes = {
+					9E6447251E4851F100819A84 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C63Y2RP62Y;
+						ProvisioningStyle = Automatic;
+					};
+					9E64473E1E4851F100819A84 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C63Y2RP62Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E6447251E4851F100819A84;
+					};
+					9E6447491E4851F100819A84 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C63Y2RP62Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E6447251E4851F100819A84;
+					};
+				};
+			};
+			buildConfigurationList = 9E6447211E4851F100819A84 /* Build configuration list for PBXProject "WFPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E64471D1E4851F100819A84;
+			productRefGroup = 9E6447271E4851F100819A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E6447251E4851F100819A84 /* WFPlayer */,
+				9E64473E1E4851F100819A84 /* WFPlayerTests */,
+				9E6447491E4851F100819A84 /* WFPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E6447241E4851F100819A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6447391E4851F100819A84 /* LaunchScreen.storyboard in Resources */,
+				9E6447361E4851F100819A84 /* Assets.xcassets in Resources */,
+				9E6447341E4851F100819A84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E64473D1E4851F100819A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6447481E4851F100819A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E6447221E4851F100819A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6447311E4851F100819A84 /* ViewController.m in Sources */,
+				9E64472E1E4851F100819A84 /* AppDelegate.m in Sources */,
+				9E64472B1E4851F100819A84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E64473B1E4851F100819A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6447441E4851F100819A84 /* WFPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6447461E4851F100819A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E64474F1E4851F100819A84 /* WFPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E6447411E4851F100819A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E6447251E4851F100819A84 /* WFPlayer */;
+			targetProxy = 9E6447401E4851F100819A84 /* PBXContainerItemProxy */;
+		};
+		9E64474C1E4851F100819A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E6447251E4851F100819A84 /* WFPlayer */;
+			targetProxy = 9E64474B1E4851F100819A84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E6447321E4851F100819A84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E6447331E4851F100819A84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E6447371E4851F100819A84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E6447381E4851F100819A84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E6447511E4851F100819A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E6447521E4851F100819A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E6447541E4851F100819A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E6447551E4851F100819A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9E6447571E4851F100819A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFPlayer.app/WFPlayer";
+			};
+			name = Debug;
+		};
+		9E6447581E4851F100819A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFPlayer.app/WFPlayer";
+			};
+			name = Release;
+		};
+		9E64475A1E4851F100819A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WFPlayer;
+			};
+			name = Debug;
+		};
+		9E64475B1E4851F100819A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WFPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E6447211E4851F100819A84 /* Build configuration list for PBXProject "WFPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6447511E4851F100819A84 /* Debug */,
+				9E6447521E4851F100819A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6447531E4851F100819A84 /* Build configuration list for PBXNativeTarget "WFPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6447541E4851F100819A84 /* Debug */,
+				9E6447551E4851F100819A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E6447561E4851F100819A84 /* Build configuration list for PBXNativeTarget "WFPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6447571E4851F100819A84 /* Debug */,
+				9E6447581E4851F100819A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E6447591E4851F100819A84 /* Build configuration list for PBXNativeTarget "WFPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E64475A1E4851F100819A84 /* Debug */,
+				9E64475B1E4851F100819A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E64471E1E4851F100819A84 /* Project object */;
+}
